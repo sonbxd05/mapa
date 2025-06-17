@@ -39,5 +39,9 @@
     background-color: rgb(225, 200, 200);
     border-radius: 5%;
 }
+ #preco-antigo {
+    text-decoration: line-through;
+    color: gray;
+  }
   
    
