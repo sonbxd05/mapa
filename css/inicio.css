@@ -72,6 +72,7 @@ section#produtos h2 {
 section#produtos p {
   font-size: 1.2em;
   margin-bottom: 20px;
+  text-align: justify;
 }
 section#produtos ul.lista-produtos {
   list-style: none;
@@ -124,7 +125,7 @@ section#contato form input {
   border: 1px solid #ccc;
   border-radius: 5px;
 }
-section#contato form button {
+section#contato form .botao {
   padding: 10px;
   background-color: #333;
   color: #fff;
@@ -144,7 +145,10 @@ footer {
   bottom: 0;
   width: 100%;
 }
-
+#resposta{
+  display: flex;
+  justify-content: center;
+}
 /* Responsive styles */
 @media (max-width: 600px) {
   header h1 {
