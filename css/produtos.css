@@ -1,47 +1,14 @@
-#anel1{
+#botao-compra{
     background-color: rgb(225, 200, 200);
     border-radius: 5%;
+    padding: 10px;
+    cursor: pointer;
     
 }
-#anel2{
-    background-color: rgb(225, 200, 200);
-    border-radius: 5%;
-    
-}
-#anel3{
-    background-color: rgb(225, 200, 200);
-    border-radius: 5%;
-    
-}
-#anel4{
-    background-color: rgb(225, 200, 200);
-    border-radius: 5%;
-    
-}
-#brinco1{
-    background-color: rgb(225, 200, 200);
-    border-radius: 5%;
-}
-#brinco2{
-    background-color: rgb(225, 200, 200);
-    border-radius: 5%;
-}
-#brinco3{
-    background-color: rgb(225, 200, 200);
-    border-radius: 5%;
-}
-#colar1{
-    background-color: rgb(225, 200, 200);
-    border-radius: 5%;
 
-}
-#colar2{
-    background-color: rgb(225, 200, 200);
-    border-radius: 5%;
-}
  #preco-antigo {
     text-decoration: line-through;
-    color: gray;
+    color: black;
   }
   
    

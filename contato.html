@@ -5,7 +5,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>loja-Raro</title>
-        <link rel="stylesheet" href="/css/inicio.css">
+        <link rel="stylesheet" href="./css/inicio.css">
     </head>
     <body>
         <main>
@@ -29,12 +29,16 @@
             <section id="contato">
                 <h2>Contato</h2>
                 <p>Entre em contato conosco para mais informações ou dúvidas.</p>
-                <form>
+                <form onsubmit="form()">
                     <label for="nome">Nome:</label>
                     <input type="text" id="nome" name="nome" required>
                     <label for="email">Email:</label>
                     <input type="email" id="email" name="email" required>
-                    <button type="submit">Enviar</button>
+                     <input class="botao" type="button" onclick="validacao()" value="enviar">
+
+                    <div id="resposta">
+                         
+                    </div>
                 </form>
             </section>
             <footer>
@@ -42,6 +46,8 @@
             </footer>
 
         </main>
-    
+    <script src="./js/script.js">
+        
+    </script>
     </body>  
 </html>    
